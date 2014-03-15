@@ -1,6 +1,4 @@
 package recfun
-import common._
-import java.util
 
 object Main {
   def main(args: Array[String]) {
@@ -24,18 +22,18 @@ object Main {
   /**
    * Exercise 2
    */
-  def balance(chars: util.List[Char]): Boolean = {
-    def balanceWithCount(chars: util.List[Char], stack: Int): Boolean = {
+  def balance(chars: List[Char]): Boolean = {
+    def balanceWithCount(chars: List[Char], stack: Int): Boolean = {
       if (chars.isEmpty)
         return true
-      if (chars.get(0) == '(')
-        return balanceWithCount(chars.subList(1, chars.size()), stack + 1)
-      if (chars.get(0) == ')'){
+      if (chars.head == '(')
+        return balanceWithCount(chars.slice(1, chars.size), stack + 1)
+      if (chars.head == ')'){
         if (stack > 0)
-          return balanceWithCount(chars.subList(1, chars.size()), stack - 1)
+          return balanceWithCount(chars.slice(1, chars.size), stack - 1)
         return false
       }
-      balanceWithCount(chars.subList(1, chars.size()), stack)
+      balanceWithCount(chars.slice(1, chars.size), stack)
     }
 
     balanceWithCount(chars, 0)
@@ -44,5 +42,9 @@ object Main {
   /**
    * Exercise 3
    */
-  def countChange(money: Int, coins: util.List[Int]): Int = ???
+  def countChange(money: Int, coins: List[Int]): Int = {
+    if (money == 0) return 1
+    if (money < 0 || coins.isEmpty) return 0
+    countChange(money, coins.slice(1, coins.size)) + countChange(money-coins.head, coins)
+  }
 }

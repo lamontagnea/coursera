@@ -2,7 +2,6 @@ package recfun
 
 import org.scalatest.FunSuite
 
-import scala.collection.JavaConverters._
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 
@@ -11,26 +10,26 @@ class BalanceSuite extends FunSuite {
   import Main.balance
 
   test("balance: '(if (zero? x) max (/ 1 x))' is balanced") {
-    assert(balance("(if (zero? x) max (/ 1 x))".toList.asJava))
+    assert(balance("(if (zero? x) max (/ 1 x))".toList))
   }
 
   test("balance: 'I told him ...' is balanced") {
-    assert(balance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList.asJava))
+    assert(balance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList))
   }
 
   test("balance: ':-)' is unbalanced") {
-    assert(!balance(":-)".toList.asJava))
+    assert(!balance(":-)".toList))
   }
 
   test("balance: counting is not enough") {
-    assert(!balance("())(".toList.asJava))
+    assert(!balance("())(".toList))
   }
 
   test("balance: simple") {
-    assert(balance("()".toList.asJava))
+    assert(balance("()".toList))
   }
 
   test("balance: repeat") {
-    assert(balance("()()()()()".toList.asJava))
+    assert(balance("()()()()()".toList))
   }
 }
