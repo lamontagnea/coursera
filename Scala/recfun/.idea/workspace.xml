@@ -67,7 +67,7 @@
       <file leaf-file-name="Main.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="616" selection-end="616" vertical-scroll-proportion="0.36006546" vertical-offset="256" max-vertical-offset="918">
+            <state line="21" column="3" selection-start="437" selection-end="437" vertical-scroll-proportion="0.58428806" vertical-offset="0" max-vertical-offset="918">
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -75,11 +75,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/List.java">
+      <file leaf-file-name="PascalSuite.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/PascalSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="598" column="12" selection-start="27149" selection-end="27149" vertical-scroll-proportion="0.0" vertical-offset="9147" max-vertical-offset="9911">
-              <folding />
+            <state line="12" column="3" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <element signature="e#16#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountChangeSuite.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/CountChangeSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="62" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding>
+                <element signature="e#16#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalanceSuite.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/BalanceSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="3" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <folding>
+                <element signature="e#16#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +111,7 @@
       <file leaf-file-name="scratch.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scratch.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="360" selection-end="870" vertical-scroll-proportion="0.18149467" vertical-offset="153" max-vertical-offset="1258">
+            <state line="12" column="1" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3024911" vertical-offset="0" max-vertical-offset="1258">
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
                 <element signature="n#!!doc;n#main#0" expanded="false" />
@@ -108,16 +132,7 @@
       <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buildSettings.sbt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/buildSettings.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+            <state line="15" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -137,6 +152,9 @@
         <option value="$PROJECT_DIR$/project/build.properties" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/scratch.sc" />
+        <option value="$PROJECT_DIR$/src/test/scala/recfun/CountChangeSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/recfun/BalanceSuite.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/recfun/PascalSuite.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/recfun/Main.scala" />
       </list>
     </option>
@@ -192,6 +210,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progfun-recfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progfun-recfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recfun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -218,7 +276,28 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Remote.SBT Remote">
+  <component name="RunManager" selected="ScalaTest.PascalSuite">
+    <configuration default="false" name="PascalSuite" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="progfun-recfun" />
+      <setting name="path" value="recfun.PascalSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -381,9 +460,15 @@
         <option name="SBT.BeforeRunTask" enabled="true" action="run" runInCurrentModule="true" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Remote.SBT Remote" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.PascalSuite" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.PascalSuite" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -446,12 +531,12 @@
       <created>1394844200838</created>
       <updated>1394844200838</updated>
       <workItem from="1394844211264" duration="2217000" />
-      <workItem from="1394846502001" duration="10085000" />
+      <workItem from="1394846502001" duration="11692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12302000" />
+    <option name="totallyTimeSpent" value="13909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -518,15 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/BalanceSuite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="561">
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/common/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="782">
@@ -557,21 +633,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+        <state line="15" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1972">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/CountChangeSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="62" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#16#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="598" column="12" selection-start="27149" selection-end="27149" vertical-scroll-proportion="0.0" vertical-offset="9147" max-vertical-offset="9911">
+        <state line="598" column="12" selection-start="27149" selection-end="27149" vertical-scroll-proportion="1.0278232" vertical-offset="9147" max-vertical-offset="9911">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scratch.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="360" selection-end="870" vertical-scroll-proportion="0.18149467" vertical-offset="153" max-vertical-offset="1258">
+        <state line="12" column="1" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3024911" vertical-offset="0" max-vertical-offset="1258">
           <folding>
             <element signature="e#0#16#0" expanded="true" />
             <element signature="n#!!doc;n#main#0" expanded="false" />
@@ -579,9 +664,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/BalanceSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="3" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding>
+            <element signature="e#16#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/recfun/PascalSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="e#16#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="616" selection-end="616" vertical-scroll-proportion="0.36006546" vertical-offset="256" max-vertical-offset="918">
+        <state line="21" column="3" selection-start="437" selection-end="437" vertical-scroll-proportion="0.58428806" vertical-offset="0" max-vertical-offset="918">
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
