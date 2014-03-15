@@ -25,11 +25,20 @@ object Main {
    * Exercise 2
    */
   def balance(chars: util.List[Char]): Boolean = {
-    if (!chars.contains('(') && !chars.contains(')' ))
-      return true
-    if (chars.contains('('))
+    def balanceWithCount(chars: util.List[Char], stack: Int): Boolean = {
+      if (chars.isEmpty)
+        return true
+      if (chars.get(0) == '(')
+        return balanceWithCount(chars.subList(1, chars.size()), stack + 1)
+      if (chars.get(0) == ')'){
+        if (stack > 0)
+          return balanceWithCount(chars.subList(1, chars.size()), stack - 1)
+        return false
+      }
+      balanceWithCount(chars.subList(1, chars.size()), stack)
+    }
 
-    balance(chars)
+    balanceWithCount(chars, 0)
   }
 
   /**
