@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="C:\Users\tro2102\Programming\Coursera\Scala\recfun" />
+            <option value="C:\Users\tro2102\Programming\Coursera\Scala\recfun/project" />
+            <option value="C:\Users\tro2102\Programming\Coursera\Scala\recfun\submission" />
+            <option value="C:\Users\tro2102\Programming\Coursera\Scala\recfun\submission/project" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
+
