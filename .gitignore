@@ -19,6 +19,7 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
+*.iml
 [Bb]in
 [Dd]ebug*/
 *.lib
@@ -30,3 +31,4 @@ _ReSharper*/
 *target/*
 target/
 lib_managed
+*.idea/
